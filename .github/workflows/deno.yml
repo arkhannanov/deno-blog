@@ -37,7 +37,7 @@ jobs:
         uses: denoland/setup-deno@61fe2df320078202e33d7d5ad347e7dcfa0e8f31
 
       - name: Install dependencies
-        run: deno cache deps.ts
+        run: deno cache dev.ts
 
       - name: Run tests
         run: deno test
