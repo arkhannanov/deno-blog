@@ -19,6 +19,7 @@ export const handler: Handlers = {
         atom: "https://deno-blog.com/feed?format=atom",
         rss: "https://deno-blog.com/feed",
       },
+      copyright: "Ваш текст авторского права",
     });
 
     const files = (await Array.fromAsync(Deno.readDir("./posts")))
